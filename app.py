@@ -1,7 +1,6 @@
 from flask import Flask
 
 app = Flask(__name__)
-visited = 0
 
 
 @app.route("/")
